@@ -4,7 +4,7 @@
 
 
 This python package facilitates the creation of 2D synthetic atmospheric
-gravity-wave wave-packets mimicking the vertical velocity structure seen in numerical weather prediction models as fixed height or pressure levels.
+gravity-wave wave-packets mimicking the vertical velocity structure seen in numerical weather prediction models at fixed height or pressure levels.
 
 ![](notebooks/synthetic_gravity_waves_vertical_velocity_example.png)
 
@@ -41,7 +41,7 @@ density of points the spatial separation between points is sampled from a
 Gaussian distribution with mean `r0` and standard deviation `r_sigma`. The
 sampling is done on a grid of shape `(N, N)`. At the sampled points 2D Gaussians envelopes modulating plane-parallel carrier waves with a controllable characterisc wavelength.
 
-See [notebooks/usage.ipynb] for details.
+See [notebooks/usage.ipynb](notebooks/usage.ipynb) for details.
 
 # References
 
