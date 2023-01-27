@@ -1,4 +1,4 @@
-name: cloudmetrics (pip install)
+name: synthetic-gravity-waves
 on: [push, pull_request]
 
 jobs:
