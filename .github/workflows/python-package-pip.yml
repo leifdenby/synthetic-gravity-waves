@@ -28,4 +28,7 @@ jobs:
 #       uses: mxschmitt/action-tmate@v3
       - name: Test with pytest
         run: |
+          python -m pytest
+      - name: Test notebooks with pytest
+        run: |
           python -m pytest --nbval-lax

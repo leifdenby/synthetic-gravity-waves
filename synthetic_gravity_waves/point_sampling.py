@@ -13,11 +13,7 @@ def modified_poisson_disk_sampling(N=100, r0=10, r_sigma=1, k=50, radiusType="de
     :param N: grid size in number of pixels (assumed square domain)
     :param r0: length-scale for distance between points
     :param r_sigma: std div for distance between points
-    :param k: Number of iterations to find a new particle in an annulus between radius r and 2r from a sample particle.
-    :param radiusType: Method to determine the distance to newly spawned particles. 'default' follows the algorithm of
-                       Bridson (2007) and generates particles uniformly in the annulus between radius r and 2r.
-                       'normDist' instead creates new particles at distances drawn from a normal distribution centered
-                       around 1.5r with a dispersion of 0.2r.
+    :param k: Number of iterations to use to place a new point before giving up
     :return: nParticle: Number of particles in the sampling.
              particleCoordinates: 2d array containing the coordinates of the created particles.
              radii: radii for the sampled particles
