@@ -1,6 +1,7 @@
 # Synthetic gravity waves
 
-[![synthetic-gravity-waves](https://github.com/leifdenby/synthetic-gravity-waves/actions/workflows/python-package-pip.yml/badge.svg)](https://github.com/leifdenby/synthetic-gravity-waves/actions/workflows/python-package-pip.yml)
+[![synthetic-gravity-waves](https://github.com/leifdenby/synthetic-gravity-waves/actions/workflows/python-package-pip.yml/badge.svg)](https://github.com/leifdenby/synthetic-gravity-waves/actions/workflows/python-package-pip.yml) [![DOI](https://zenodo.org/badge/594090735.svg)](https://zenodo.org/badge/latestdoi/594090735)
+
 
 This python package facilitates the creation of 2D synthetic atmospheric
 gravity-wave wave-packets mimicking the vertical velocity structure seen in numerical weather prediction models as fixed height or pressure levels.
