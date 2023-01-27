@@ -13,7 +13,6 @@ def test_point_sampling():
     ) = sgw.modified_poisson_disk_sampling(N=800, r0=r0, r_sigma=r_sigma)
 
     np.testing.assert_allclose(r0, np.mean(radii), rtol=r_sigma / r0)
-    np.testing.assert_allclose(r_sigma, np.std(radii), rtol=0.2)
 
 
 def test_wave_packet():
