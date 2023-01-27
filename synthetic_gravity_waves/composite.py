@@ -34,7 +34,7 @@ def make_synthetic_gravity_wave_composite(
 
         if return_envelope:
             fn_envelope = make_gaussian_2d(
-                x_center=x0, y_center=y0, theta=theta, sigma_x=lx / 2, sigma_y=ly / 2
+                x0=x0, y0=y0, theta=theta, sigma_x=lx / 2, sigma_y=ly / 2
             )
             phi_envelope += fn_envelope(x, y)
 
